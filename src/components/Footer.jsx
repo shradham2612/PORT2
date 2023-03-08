@@ -14,7 +14,7 @@ const Footer = () => {
                 </h3>
 
                 {footerlink.links.map((link, index) => (
-                  <a href={link.id}>
+                  <a href={`#${link.id}`}>
                     <h2
                       key={link.name}
                       className="pb-1 hover:text-white cursor-pointer"
