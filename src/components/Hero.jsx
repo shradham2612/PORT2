@@ -13,13 +13,11 @@ const Hero = () => {
           <h1 className="xs:text-6xl text-4xl pt-5  text-blue-900 ">
             Shradha Mahajan
           </h1>
-          <a href={res} download="Resume">
+
+          <a href="https://shorturl.at/fkmI1" target={"_blank"}>
             <button className="p-4 bg-indigo-300 hover:bg-indigo-500 text-white mt-7 rounded-lg">
-              Download Resume
-              <ion-icon
-                name="arrow-down-circle-outline"
-                className="op"
-              ></ion-icon>
+              View Resume
+              <ion-icon name="document-attach-outline"></ion-icon>
             </button>
           </a>
         </div>
@@ -27,7 +25,6 @@ const Hero = () => {
           <img src={pf} alt="dfd" className="" />
         </div>
       </div>
-      
     </section>
   );
 };
