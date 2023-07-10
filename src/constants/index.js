@@ -16,87 +16,106 @@ import bank from "../assets/bamkapp.jpg";
 import bmi from "../assets/bmi.jpg";
 import dp from "../assets/dpja.jpg";
 import temp from "../assets/tempc.jpg";
+import boot from "../assets/Bootstrap_logo.svg.png";
+import can from "../assets/Canva.svg.png";
+import net from "../assets/netlify.svg";
+import tail from "../assets/Tailwind.svg.png";
+import quiz from "../assets/quiz.jpg";
+import traffic from "../assets/traffic.jpg";
 
 export const languages = [
   {
     id: 1,
-    content:
-      "C++ is used to create computer programs, one of the most used language in game development",
     title: "C++",
     img: cp,
   },
   {
     id: 2,
-    content:
-      "Java is used to develop mobile apps, web apps, desktop apps, games and much more",
     title: "Java",
     img: java,
   },
   {
     id: 3,
-    content:
-      "Html and CSS are collectively used to make colorful and responsive web pages ",
     title: "Html & CSS",
     img: chst,
   },
   {
     id: 4,
-    content:
-      "React is a JavaScript library for building user interfaces, used to build single-page applications",
     title: "React js",
     img: Rect,
   },
   {
     id: 5,
-    content:
-      "JavaScript is a popular programming language and is the programming language of the Web",
-    title: "Javascript",
-    img: javas,
-  },
-
-  {
-    id: 6,
-    content:
-      "SQL stands for Structured Query Language and it lets you to access and manipulate databases",
     title: "SQL",
     img: sql,
   },
+
+  { id: 6, title: "Javascript", img: javas },
   {
     id: 7,
-    content: "Designing software and applications for Android devices",
-    title: "Android Development",
+    title: "Android Dev.",
     img: andr,
   },
   {
     id: 8,
-    content:
-      "Python is a programming language often used to build software, and conduct data analysis",
     title: "Python",
     img: py,
+  },
+  {
+    id: 9,
+    title: "Netlify",
+    img: net,
+  },
+  {
+    id: 10,
+    title: "Bootstrap",
+    img: boot,
+  },
+  {
+    id: 11,
+    title: "canva",
+    img: can,
+  },
+  {
+    id: 12,
+    title: "Tailwind CSS",
+    img: tail,
   },
 ];
 
 export const projects = [
   {
     id: 1,
+    title: "Quiz App",
+    img: quiz,
+    link: "https://github.com/shradham2612/frontend_Mern",
+  },
+  {
+    id: 2,
+    title: "Object Recognition",
+    img: traffic,
+    link: "https://github.com/shradham2612/Traffic_sign-Object-recognition-",
+  },
+  {
+    id: 3,
     title: "Bank app UI",
     img: bank,
     link: "https://bank-app-shradha.netlify.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "BMI Calculator",
     img: bmi,
     link: "https://bmicalculatorsh.netlify.app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Application of DP",
     img: dp,
     link: "https://github.com/shradham2612/Dp-grp-project",
   },
   {
-    id: 4,
+    id: 6,
     title: "Temperature Convertor",
     img: temp,
     link: "https://github.com/shradham2612/OIBSIP-",

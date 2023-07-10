@@ -1,16 +1,47 @@
 import React from "react";
+//import motion from "react"
+import { motion, useAnimation } from "framer-motion";
+import { useEffect} from "react";
+import { useInView } from "react-intersection-observer";
 
-const Cardthis = ({ content, title, img }) => {
+const Cardthis = ({  title, img }) => {
+  const {ref, inView} =useInView();
+  const animation =useAnimation();
+
+  useEffect(() =>{
+   
+  // console.log("use effect =",inView);
+   if(inView)
+    {
+      animation.start({
+        rotate: 0,
+        transition: {
+          type: "spring",
+          damping: 20,
+          mass: 0.75,
+          stiffness: 50,
+        },
+      });
+
+  }
+  if(!inView){
+    animation.start({rotate:360})
+  }},[inView]);
   return (
-    <div className="p-5 koko md:w-1/4 sm:w-1/3 ss:w-1/2">
-      <div className="bg-white rounded-lg shadow-lg">
+    <motion.div
+      className="p-5 koko md:w-1/5 sm:w-1/4 ss:w-1/3 xs:w-1/2 "
+      animate={animation}
+    >
+      <div ref={ref} className="bg-white rounded-lg shadow-lg">
         <img src={img} alt="" className="rounded-t-lg lop" />
         <div className="p-6">
-          <h2 className="font-bold mb-2 text-2xl text-purple-800">{title}</h2>
-          <p className="text-purple-700 mb-2">{content}</p>
+          <h2 className="font-bold mb-2 text-2xl text-purple-800 text-center">
+            {title}
+          </h2>
+          {/* <p className="text-purple-700 mb-2">{content}</p> */}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,15 +1,21 @@
 import React from "react";
 import { languages } from "../constants";
 import Cardthis from "./CardL";
+import { motion} from "framer-motion";
+
 
 const Skills = () => {
+  
   return (
     <section id="skill">
-      <h2 className="flex justify-center text-blue-900 text-4xl pt-36 bg-neutral-50">
+      <h2 className="flex justify-center text-blue-900 text-4xl pt-36 pb-28 bg-neutral-50">
         SKILLS
       </h2>
 
-      <div className="flex justify-center  items-baseline- flex-wrap w-full bg-neutral-50">
+      <div
+        
+        className="flex justify-center  items-baseline- flex-wrap w-full bg-neutral-50"
+      >
         {languages.map((card) => (
           <Cardthis key={card.id} {...card} />
         ))}
