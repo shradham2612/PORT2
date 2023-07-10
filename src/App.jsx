@@ -35,10 +35,6 @@ function App() {
             data-testid="loader"
           />
           <h2 className="text-indigo-600 pt-6">Loading . .</h2>
-<<<<<<< HEAD
-        
-=======
->>>>>>> 7feb21be840ba379dcb2041466b131f31d4cd94f
         </div>
       ) : (
         <div>
