@@ -13,10 +13,10 @@ const About = () => {
         <div className="flex justify-center flex-col-reverse md:flex-row pt-6 w-2/3 ">
           <div className="text-xl text-indigo-300 m-6 md :text-left lg:text-left xl:text-left text-center ">
             <p className="  ">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
-              sunt at vero corporis rem? Obcaecati numquam, quas provident ipsam
-              velit temporibus modi nostrum est labore expedita earum? Ducimus,
-              dolore nobis!
+              I am a final year undergraduate student of Computer Science and
+              Engineering, currently focussing on Data Structures and Algorithms
+              and Web development. Apart from studies I pursue my hobby in
+              Photography and Stocks.
             </p>
           </div>
           <div>
@@ -34,5 +34,4 @@ const About = () => {
 
 export default About;
 
-
-// flex justify-center md:mr-44 lg:mr-44 xl:mr-44 
+// flex justify-center md:mr-44 lg:mr-44 xl:mr-44

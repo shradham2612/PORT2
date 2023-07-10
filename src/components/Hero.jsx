@@ -18,8 +18,7 @@ const Hero = () => {
             <button className="p-4 bg-indigo-300 hover:bg-indigo-500 text-white mt-7 rounded-lg">
               View Resume
               <ion-icon name="document-attach-outline"></ion-icon>
-              View Resume
-              <ion-icon name="document-attach-outline"></ion-icon>
+              
             </button>
           </a>
         </div>
