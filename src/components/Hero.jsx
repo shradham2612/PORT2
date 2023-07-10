@@ -14,11 +14,7 @@ const Hero = () => {
             Shradha Mahajan
           </h1>
 
-<<<<<<< HEAD
           <a href="https://shorturl.at/chDY7" target={"_blank"}>
-=======
-          <a href="https://shorturl.at/fkmI1" target={"_blank"}>
->>>>>>> 7feb21be840ba379dcb2041466b131f31d4cd94f
             <button className="p-4 bg-indigo-300 hover:bg-indigo-500 text-white mt-7 rounded-lg">
               View Resume
               <ion-icon name="document-attach-outline"></ion-icon>
