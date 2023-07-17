@@ -88,7 +88,7 @@ export const projects = [
     id: 1,
     title: "Quiz App",
     img: quiz,
-    link: "https://github.com/shradham2612/frontend_Mern",
+    link: "https://assembleq.vercel.app/",
   },
   {
     id: 2,
