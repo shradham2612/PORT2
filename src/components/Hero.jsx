@@ -14,7 +14,7 @@ const Hero = () => {
             Shradha Mahajan
           </h1>
 
-          <a href="https://shorturl.at/chDY7" target={"_blank"}>
+          <a href="https://drive.google.com/file/d/1wA8HwhXtxdusJzSytwdRP9CqqqvImuh-/view?usp=sharing" target={"_blank"}>
             <button className="p-4 bg-indigo-500 hover:bg-purple-500 text-white mt-7 rounded-lg">
               View Resume
               <ion-icon name="document-attach-outline"></ion-icon>
